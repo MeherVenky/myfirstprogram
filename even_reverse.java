@@ -7,7 +7,6 @@ public static void main(String[] args) {
 	int m=sc.nextInt();
         int n=sc.nextInt();
 	int i = m;
-
 	while(i>=n) {
 			
 	  if(i%2==0)
