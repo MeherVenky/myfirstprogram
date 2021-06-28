@@ -4,13 +4,14 @@ class even_reverse {
 	
 public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
+	System.out.println("Enter value of m");
 	int m=sc.nextInt();
+	System.out.println("Enter value of n");
         int n=sc.nextInt();
-	int i = m;
-	while(i>=n) {
+	while(m>=n) {
 			
-	  if(i%2==0)
-         System.out.print(i+" ");
+	  if(m%2==0)
+         System.out.print(m+" ");
 	 i--;
 
        }
